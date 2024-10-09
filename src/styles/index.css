@@ -10,3 +10,37 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+#app {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.red {
+    background-color: red !important;
+}
+
+.yellow {
+    background-color: yellow !important;
+    margin-top: 10px;
+}
+
+.green {
+    background-color: rgb(49, 240, 49) !important;
+    margin-top: 10px;
+}
+
+.purple {
+    background-color: rgb(194, 10, 194) !important;
+    margin-top: 10px;
+}
+
+.selected {
+    background-color: white;
+    filter: blur(12px);
+    opacity: 1;
+}
+
+.btn {
+    margin-bottom: 8px;
+}
